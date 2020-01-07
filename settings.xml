@@ -1,21 +1,14 @@
 <settings>
   <servers>
     <server>
-      <id>ossrh</id>
-      <username>aioobe</username>
-      <password>[enter sonatype password here]</password>
+      <id>jv-maven-repo-snapshot</id>
+      <username>publish</username>
+      <password>fuzzy_logic#</password>
+    </server>
+    <server>
+      <id>jv-maven-repo-release</id>
+      <username>publish</username>
+      <password>fuzzy_logic#</password>
     </server>
   </servers>
-  <profiles>
-    <profile>
-      <id>ossrh</id>
-      <activation>
-        <activeByDefault>true</activeByDefault>
-      </activation>
-      <properties>
-        <gpg.executable>gpg2</gpg.executable>
-        <gpg.passphrase>the_pass_phrase</gpg.passphrase>
-      </properties>
-    </profile>
-  </profiles>
 </settings>
