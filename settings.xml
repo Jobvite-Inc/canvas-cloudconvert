@@ -3,12 +3,12 @@
     <server>
       <id>jv-maven-repo-snapshot</id>
       <username>publish</username>
-      <password>fuzzy_logic#</password>
+      <password>ojyRbGe3RFseDBSDKcR3W2n3RPon5X4QhCDetJBEumiYqjWspuyZk75nRTBn434B</password>
     </server>
     <server>
       <id>jv-maven-repo-release</id>
       <username>publish</username>
-      <password>fuzzy_logic#</password>
+      <password>ojyRbGe3RFseDBSDKcR3W2n3RPon5X4QhCDetJBEumiYqjWspuyZk75nRTBn434B</password>
     </server>
   </servers>
 </settings>
